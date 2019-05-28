@@ -2,27 +2,31 @@
 .headerContainer {
   display: flex;
   flex-direction: row;
+  width: 590px;
 }
 
 .thumbnailImg {
   height: 60px;
+  padding: 8% 0 0 0;
 }
 
 .headerTitle {
   display: flex;
-  padding: 1% 2% 2% 2%;
+  padding: 1% 1%;
 }
 
 .headerTitleFirst {
   font-weight: bold;
-  padding: 0 1.5% 0 0;
+  padding: 0;
 }
 
 .headerTitleSecond {
   font-size: 0.8rem;
   color: lightgray;
+  padding: 0.1% 0 0 1%;
 }
 
 .headerContent {
-  padding: 0 0 2% 2%;
+  padding: 0 0 2% 1%;
+  line-height: 1.3rem;
 }
